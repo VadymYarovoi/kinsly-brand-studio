@@ -1,0 +1,306 @@
+@import "../css/fonts.css"
+
+*
+  margin: 0
+  padding: 0
+
+body
+  width: 1920px
+  overflow: hidden 
+  background-color: #152938
+  color: #fff
+  background:
+    image: url(../img/lion.png)
+    repeat: no-repeat 
+    size: 765px 455px
+    position: 770px 205px
+
+  @media only screen and (max-width: 1367px)
+    width: 1366px
+    background-position: 560px 205px
+
+  @media only screen and (min-width: 420px) and (max-width: 1280px)
+    position: fixed
+    user-zoom: fixed
+    background-position: 480px 180px
+
+  @media only screen and (max-width: 800px)
+    background-position: -300px 650px
+
+  @media only screen and (max-width: 420px)
+    width: 420px
+    background-position: -300px 700px
+
+a
+  text-decoration: none !important
+
+header,
+section
+  margin-left: -20px
+
+  @media only screen and (max-width: 1368px)
+    float: left
+    padding-left: 130px
+
+  @media only screen and (max-width: 1280px)
+    padding-left: 80px
+
+  @media only screen and (max-width: 800px)
+    padding-left: 40px
+
+  @media only screen and (max-width: 420px)
+    padding-left: 10px
+
+.top
+  margin-top: 15px
+
+  & .contact-call
+    float: right
+
+    & span
+      float: left
+      margin-left: 10px
+      font:
+        family: RobotoLight
+        size: 20px
+
+      & .call-us
+        text:
+          decoration: none
+          transform: uppercase
+        color: #02f1f3
+        font:
+          family: DINProCondensedBlack
+          size: 19px
+
+    & img
+      padding-top: 10px
+      float: left
+
+    @media only screen and (max-width: 420px)
+      position: absolute
+      top: 0
+      right: -410px
+
+.content
+  margin-top: 100px
+  padding-left: 25px
+
+  @media only screen and (max-width: 800px)
+    position: absolute
+    top: 40px
+    left: 40px
+
+  & .main-title
+    font:
+      family: DINProCondensedBlack
+      size: 59px
+    text-transform: uppercase
+
+    @media only screen and (max-width: 420px)
+      width: 110%
+      font-size: 49px
+
+  & img
+    margin-top: -30px
+
+  & .main-description
+    font:
+      family: RobotoLight
+      size: 20px
+
+  & .download-presentation
+    margin-top: 20px
+    width: 300px
+    height: 120px
+    font:
+      family: DINProCondensedBlack
+      size: 19px
+    text-transform: uppercase
+    border: none
+    outline: none 
+    background: transparent url(../img/green-button.png) no-repeat
+
+.portfolio
+  font:
+    family: DINProCondensedBlack
+    size: 19px
+  color: #02f1f3
+  text-transform: uppercase
+  float: right
+  transform: rotate(-90deg)
+  margin:
+    top: -90px
+    right: -50px
+
+  &:hover
+    color: #02f1f3
+
+  & img
+    margin-bottom: 4px
+
+  & span
+    margin-left: 10px
+
+  @media only screen and (max-width: 1368px)
+    margin:
+      top: -100px
+      right: -120px
+
+  @media only screen and (max-width: 1280px)
+    position: absolute
+    top: 595px
+    left: 1150px
+
+  @media only screen and (max-width: 800px)
+    position: absolute
+    top: 1050px
+    left: 680px
+
+  @media only screen and (max-width: 420px)
+    width: 200px
+    position: absolute
+    top: 950px
+    left: 530px
+
+.triangle
+  transition-duration: 1.5s
+  position: absolute
+
+.linear-triangle-1
+  top: -15px
+  left: 740px
+
+  @media only screen and (max-width: 1367px)
+    left: 450px
+
+  @media only screen and (max-width: 800px)
+    left: 310px
+
+  @media only screen and (max-width: 420px)
+    left: 250px
+
+.linear-triangle-2
+  top: 60px
+  left: 1045px
+
+  @media only screen and (max-width: 1367px)
+    top: 65px
+    left: 770px
+
+  @media only screen and (max-width: 800px)
+    top: 250px
+    left: 685px
+
+  @media only screen and (max-width: 420px)
+    top: 350px
+    left: 570px
+
+.linear-triangle-3
+  top: 390px
+  left: 120px
+
+  @media only screen and (max-width: 1367px)
+    display: none
+
+  @media only screen and (max-width: 800px)
+    display: block
+    top: 700px
+    left: 630px
+
+  @media only screen and (max-width: 420px)
+    display: none
+
+.linear-triangle-4
+  top: 280px
+  left: 1705px
+
+  @media only screen and (max-width: 1367px)
+    top: 330px 
+    left: -2px
+
+  @media only screen and (max-width: 1280px)
+    left: -35px
+
+  @media only screen and (max-width: 800px)
+    top: 665px
+    left: 30px
+
+  @media only screen and (max-width: 420px)
+    top: 680px
+
+.color-triangle-1
+  top: 180px
+  left: 182px
+
+  @media only screen and (max-width: 1367px)
+    top: 60px
+    left: 15px
+  
+  @media only screen and (max-width: 1280px)
+    left: 5px
+
+  @media only screen and (max-width: 800px)
+    left: -50px
+
+.color-triangle-2
+  top: 643px
+  left: 123px
+
+  @media only screen and (max-width: 1367px)
+    top: 550px
+    left: -20px
+
+  @media only screen and (max-width: 420px)
+    display: none
+
+.color-triangle-3
+  top: 220px
+  left: 950px
+
+  @media only screen and (max-width: 1367px)
+    top: 200px
+    left: 670px
+
+  @media only screen and (max-width: 800px)
+    top: 150px
+    left: 620px
+
+.color-triangle-4
+  top: 105px
+  left: 1632px
+
+  @media only screen and (max-width: 1367px)
+    display: none
+
+  @media only screen and (max-width: 800px)
+    display: block
+    top: 980px
+    left: 500px
+
+  @media only screen and (max-width: 420px)
+    top: 940px
+    left: 450px
+
+.color-triangle-5
+
+  top: 505px
+  left: 1673px
+
+  @media only screen and (max-width: 1367px)
+    top: 40px
+    left: 1225px
+
+  @media only screen and (max-width: 800px)
+    top: 500px
+    left: 430px
+
+  @media only screen and (max-width: 420px)
+    top: 590px
+    left: 450px
+
+.parallax
+  display: none
+  width: 1px
+  height: 1px
+  border: 1px solid red
